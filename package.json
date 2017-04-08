@@ -1,0 +1,26 @@
+{
+  "name": "self-learning-clinic",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/library.js",
+  "dependencies": {
+    "jasmine-node": "~1.14.5",
+    "jasmine": "~2.5.3"
+  },
+  "devDependencies": {},
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbollynerd/self-learning-clinic.git"
+  },
+  "author": "Ajayi Omogbolade",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gbollynerd/self-learning-clinic/issues"
+  }
+}

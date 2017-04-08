@@ -1,0 +1,14 @@
+{
+  "name": "AritGeo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "author": "Ajayi Gbola",
+  "license": "MIT"
+}

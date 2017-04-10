@@ -23,3 +23,19 @@ BossDetails.prototype.getBossDetails = function() {
 	bossInfo = [this.bossDetail.bossName, this.bossDetail.sections, this.bossDetail.bossAddress];
 	return bossInfo;
 }
+
+//definition of a subclass
+let Staff = function() {
+	this.staffName = "member1";
+
+	//Encapsulation (data hiding), using closure, only 'st' method could change the name of the staff
+	let st = function () {
+		this.staffName = 'newStaff';
+		return this.staffName;
+	}
+  
+  //first method for subclass
+  this.staffInfo = function() {
+    return this.staffName + ", " + this.bossDetail.bossName + ", " + this.bossDetail.sections[5];
+  };
+};

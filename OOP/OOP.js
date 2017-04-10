@@ -55,4 +55,13 @@ let staff = new BossDetails();
 console.log(staff.bossDetail.bossName);
 console.log(staff2.bossDetail.bossName);
 
+//To show inheritance
+console.log(staff2.bossDetail.bossName);
+console.log(staff2.getBossDetails());
 
+//To show encapsulation (hide the property in a function and that is closure in concepts)
+console.log(staff.staffName);
+
+//but it is accessible inside the property
+console.log(staff2.staffInfo());
+//console.log(staff.staffInfo());

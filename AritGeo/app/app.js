@@ -19,6 +19,18 @@ module.exports = {
   			let argLength = Number(arguments.length); 
   			
 
+  			let d = 0;
+  			let nthTerm = 2; 
+  
+    	for (let i=2; i < argLength; i++){
+    		nthTerm += 1;
+    		if (Number(arguments[i]) === Number(firstNumber) + (nthTerm - 1) * commonDiff) {
+    	  		return "Arithmetic";
+    		}
+    		if (Number(arguments[i]) === firstNumber * Math.pow(commonRatio, nthTerm-1)) {
+      			return "Geometric";
+    		}
+    	}
 	    
   	}
 	  return -1;

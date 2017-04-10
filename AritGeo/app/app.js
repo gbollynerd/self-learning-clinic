@@ -12,7 +12,13 @@ module.exports = {
     		return -1;
   		}
     
-    
+    	if (arguments.length >= 3){    		
+    		let firstNumber = Number(arguments[0]);
+  			let commonDiff = Number(arguments[1]) - Number(arguments[0]);
+  			let commonRatio = Number(arguments[1]) / Number(arguments[0]);  			
+  			let argLength = Number(arguments.length); 
+  			
+
 	    
   	}
 	  return -1;

@@ -17,4 +17,9 @@ BossDetails.prototype.bossDetail = {
   bossAddress : "12, Samuel Onafuwa, Rivervalley"
   
 };
-
+//BossDetail second property (first method)
+BossDetails.prototype.getBossDetails = function() {
+	let bossInfo = [];
+	bossInfo = [this.bossDetail.bossName, this.bossDetail.sections, this.bossDetail.bossAddress];
+	return bossInfo;
+}

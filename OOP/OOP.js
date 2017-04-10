@@ -39,3 +39,20 @@ let Staff = function() {
     return this.staffName + ", " + this.bossDetail.bossName + ", " + this.bossDetail.sections[5];
   };
 };
+
+//extending the properties of a superclass object (BossDetails) to subclass object (staff)
+Staff.prototype = new BossDetails();
+
+///note that, this is only unidirectional, if you want the super class to be able to access the sub class you must declare its prototype as an object
+//BossDetails.prototype = new Staff();
+
+//create new instances of the objects
+let staff2 = new Staff();
+let staff = new BossDetails();
+
+
+//access the properties using the different objects
+console.log(staff.bossDetail.bossName);
+console.log(staff2.bossDetail.bossName);
+
+

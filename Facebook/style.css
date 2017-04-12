@@ -184,6 +184,14 @@ small{
 	
 }
 
+.blue {
+	color: #365899;
+}
+select {
+font-size: 13px;
+height: 30px;
+padding: 5px;
+}
 
 .fb-body-footer{
 	width:100%;

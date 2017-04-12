@@ -27,7 +27,56 @@ body{
 	
 }
 
+#img1{
+	left:178px;
+	height:50px;
+	width:100px;
+	top:25px;
+}
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
 
+small{
+	font-size: 10px;
+}
+.submit1{
+	left: 1130px;
+	top: 35px;
+	background-color: #4267b2;
+	border-color: #29487d;
+	border: 1px solid #ced0d4;
+	color: white;
+	position: fixed;
+	z-index: 20;
+	height: 22px;
+	width: 50px;
+	cursor: pointer;
+	position: absolute;
+	
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:645px;
+	
+
+}
 
 
 .fb-body-footer{
